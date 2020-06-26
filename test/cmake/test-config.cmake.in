@@ -1,0 +1,54 @@
+# test CMake config file
+#
+# This file sets the following variables:
+# test_FOUND - Always TRUE.
+# test_INCLUDE_DIRS - Directories containing the test include files.
+# test_IDL_DIRS - Directories containing the test IDL files.
+# test_LIBRARIES - Libraries needed to use test.
+# test_DEFINITIONS - Compiler flags for test.
+# test_VERSION - The version of test found.
+# test_VERSION_MAJOR - The major version of test found.
+# test_VERSION_MINOR - The minor version of test found.
+# test_VERSION_REVISION - The revision version of test found.
+# test_VERSION_CANDIDATE - The candidate version of test found.
+
+message(STATUS "Found test-@PROJECT_VERSION@")
+set(test_FOUND TRUE)
+
+find_package(<dependency> REQUIRED)
+
+#set(test_INCLUDE_DIRS
+#    "@CMAKE_INSTALL_PREFIX@/include/@PROJECT_NAME_LOWER@-@PROJECT_VERSION_MAJOR@"
+#    ${<dependency>_INCLUDE_DIRS}
+#    )
+#
+#set(test_IDL_DIRS
+#    "@CMAKE_INSTALL_PREFIX@/include/@PROJECT_NAME_LOWER@-@PROJECT_VERSION_MAJOR@/idl")
+set(test_INCLUDE_DIRS
+    "@CMAKE_INSTALL_PREFIX@/include/@CPACK_PACKAGE_FILE_NAME@"
+    ${<dependency>_INCLUDE_DIRS}
+    )
+set(test_IDL_DIRS
+    "@CMAKE_INSTALL_PREFIX@/include/@CPACK_PACKAGE_FILE_NAME@/idl")
+
+
+if(WIN32)
+    set(test_LIBRARIES
+        "@CMAKE_INSTALL_PREFIX@/@LIB_INSTALL_DIR@/@CMAKE_SHARED_LIBRARY_PREFIX@@PROJECT_NAME_LOWER@@CMAKE_STATIC_LIBRARY_SUFFIX@"
+        ${<dependency>_LIBRARIES}
+        )
+else(WIN32)
+    set(test_LIBRARIES
+        "@CMAKE_INSTALL_PREFIX@/@LIB_INSTALL_DIR@/@CMAKE_SHARED_LIBRARY_PREFIX@@PROJECT_NAME_LOWER@@CMAKE_SHARED_LIBRARY_SUFFIX@"
+        ${<dependency>_LIBRARIES}
+        )
+endif(WIN32)
+
+set(test_DEFINITIONS ${<dependency>_DEFINITIONS})
+
+set(test_VERSION @PROJECT_VERSION@)
+set(test_VERSION_MAJOR @PROJECT_VERSION_MAJOR@)
+set(test_VERSION_MINOR @PROJECT_VERSION_MINOR@)
+set(test_VERSION_REVISION @PROJECT_VERSION_REVISION@)
+set(test_VERSION_CANDIDATE @PROJECT_VERSION_CANDIDATE@)
+

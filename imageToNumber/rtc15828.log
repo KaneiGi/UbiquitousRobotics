@@ -1,0 +1,15 @@
+2020-06-26 19:04:12,390 file.manager INFO 1.2.1
+2020-06-26 19:04:12,390 file.manager INFO Copyright (C) 2003-2010
+2020-06-26 19:04:12,390 file.manager INFO   Noriaki Ando
+2020-06-26 19:04:12,391 file.manager INFO   Intelligent Systems Research Institute, AIST
+2020-06-26 19:04:12,391 file.manager INFO Manager starting.
+2020-06-26 19:04:12,391 file.manager INFO Starting local logging.
+2020-06-26 19:04:12,395 file.manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2020-06-26 19:04:16,408 file.ManagerServant INFO Master manager not found
+2020-06-26 19:04:16,409 file.LocalServiceAdmin INFO All the local services are enabled.
+2020-06-26 19:04:16,412 file.ec_base INFO setRate(1000000.000000) done
+2020-06-26 19:04:16,414 file.ec_base INFO setRate(1000.000000) done
+2020-06-26 19:04:16,414 file.rtobject INFO 1 execution context was created.
+2020-06-26 19:04:16,415 file.rtobject INFO Initial active configuration set is default-set.
+2020-06-26 19:04:30,411 file.ManagerServant INFO Master manager not found
+2020-06-26 19:04:44,570 file.ManagerServant INFO Master manager not found

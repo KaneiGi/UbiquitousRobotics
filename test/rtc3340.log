@@ -1,0 +1,21 @@
+2020-06-26 18:06:55,558 file.manager INFO 1.2.1
+2020-06-26 18:06:55,559 file.manager INFO Copyright (C) 2003-2010
+2020-06-26 18:06:55,559 file.manager INFO   Noriaki Ando
+2020-06-26 18:06:55,559 file.manager INFO   Intelligent Systems Research Institute, AIST
+2020-06-26 18:06:55,559 file.manager INFO Manager starting.
+2020-06-26 18:06:55,559 file.manager INFO Starting local logging.
+2020-06-26 18:06:55,565 file.manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2020-06-26 18:06:59,576 file.ManagerServant INFO Master manager not found
+2020-06-26 18:06:59,577 file.LocalServiceAdmin INFO All the local services are enabled.
+2020-06-26 18:06:59,579 file.manager INFO Component type conf file: test.conf loaded.
+2020-06-26 18:06:59,582 file.ec_base INFO setRate(1000000.000000) done
+2020-06-26 18:06:59,583 file.ec_base INFO setRate(1000.000000) done
+2020-06-26 18:06:59,583 file.rtobject INFO 1 execution context was created.
+2020-06-26 18:06:59,584 file.rtobject INFO Initial active configuration set is default-set.
+2020-06-26 18:07:13,693 file.ManagerServant INFO Master manager not found
+2020-06-26 18:07:14,836 file.SdoServiceAdmin WARNING No available SDO service in the factory: 
+2020-06-26 18:07:14,836 file.SdoServiceAdmin ERROR type  already exists.
+2020-06-26 18:07:27,800 file.ManagerServant INFO Master manager not found
+2020-06-26 18:07:41,995 file.ManagerServant INFO Master manager not found
+2020-06-26 18:07:56,827 file.ManagerServant INFO Master manager not found
+2020-06-26 18:08:10,995 file.ManagerServant INFO Master manager not found

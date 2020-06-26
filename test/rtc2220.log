@@ -1,0 +1,27 @@
+2020-06-26 18:01:59,777 file.manager INFO 1.2.1
+2020-06-26 18:01:59,777 file.manager INFO Copyright (C) 2003-2010
+2020-06-26 18:01:59,777 file.manager INFO   Noriaki Ando
+2020-06-26 18:01:59,778 file.manager INFO   Intelligent Systems Research Institute, AIST
+2020-06-26 18:01:59,778 file.manager INFO Manager starting.
+2020-06-26 18:01:59,778 file.manager INFO Starting local logging.
+2020-06-26 18:01:59,783 file.manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2020-06-26 18:02:03,798 file.ManagerServant INFO Master manager not found
+2020-06-26 18:02:03,799 file.LocalServiceAdmin INFO All the local services are enabled.
+2020-06-26 18:02:03,804 file.manager INFO Component type conf file: test.conf loaded.
+2020-06-26 18:02:03,805 file.ec_base INFO setRate(1000000.000000) done
+2020-06-26 18:02:03,805 file.ec_base INFO setRate(1000.000000) done
+2020-06-26 18:02:03,809 file.rtobject INFO 1 execution context was created.
+2020-06-26 18:02:03,810 file.rtobject INFO Initial active configuration set is default-set.
+2020-06-26 18:02:07,692 file.SdoServiceAdmin WARNING No available SDO service in the factory: 
+2020-06-26 18:02:07,693 file.SdoServiceAdmin ERROR type  already exists.
+2020-06-26 18:02:17,829 file.ManagerServant INFO Master manager not found
+2020-06-26 18:02:31,941 file.ManagerServant INFO Master manager not found
+2020-06-26 18:02:46,100 file.ManagerServant INFO Master manager not found
+2020-06-26 18:03:00,400 file.ManagerServant INFO Master manager not found
+2020-06-26 18:03:14,817 file.ManagerServant INFO Master manager not found
+2020-06-26 18:03:29,244 file.ManagerServant INFO Master manager not found
+2020-06-26 18:03:43,703 file.ManagerServant INFO Master manager not found
+2020-06-26 18:03:58,186 file.ManagerServant INFO Master manager not found
+2020-06-26 18:04:12,870 file.ManagerServant INFO Master manager not found
+2020-06-26 18:04:26,948 file.ManagerServant INFO Master manager not found
+2020-06-26 18:04:41,062 file.ManagerServant INFO Master manager not found

@@ -1,0 +1,54 @@
+# imageToNumber CMake config file
+#
+# This file sets the following variables:
+# imageToNumber_FOUND - Always TRUE.
+# imageToNumber_INCLUDE_DIRS - Directories containing the imageToNumber include files.
+# imageToNumber_IDL_DIRS - Directories containing the imageToNumber IDL files.
+# imageToNumber_LIBRARIES - Libraries needed to use imageToNumber.
+# imageToNumber_DEFINITIONS - Compiler flags for imageToNumber.
+# imageToNumber_VERSION - The version of imageToNumber found.
+# imageToNumber_VERSION_MAJOR - The major version of imageToNumber found.
+# imageToNumber_VERSION_MINOR - The minor version of imageToNumber found.
+# imageToNumber_VERSION_REVISION - The revision version of imageToNumber found.
+# imageToNumber_VERSION_CANDIDATE - The candidate version of imageToNumber found.
+
+message(STATUS "Found imageToNumber-@PROJECT_VERSION@")
+set(imageToNumber_FOUND TRUE)
+
+find_package(<dependency> REQUIRED)
+
+#set(imageToNumber_INCLUDE_DIRS
+#    "@CMAKE_INSTALL_PREFIX@/include/@PROJECT_NAME_LOWER@-@PROJECT_VERSION_MAJOR@"
+#    ${<dependency>_INCLUDE_DIRS}
+#    )
+#
+#set(imageToNumber_IDL_DIRS
+#    "@CMAKE_INSTALL_PREFIX@/include/@PROJECT_NAME_LOWER@-@PROJECT_VERSION_MAJOR@/idl")
+set(imageToNumber_INCLUDE_DIRS
+    "@CMAKE_INSTALL_PREFIX@/include/@CPACK_PACKAGE_FILE_NAME@"
+    ${<dependency>_INCLUDE_DIRS}
+    )
+set(imageToNumber_IDL_DIRS
+    "@CMAKE_INSTALL_PREFIX@/include/@CPACK_PACKAGE_FILE_NAME@/idl")
+
+
+if(WIN32)
+    set(imageToNumber_LIBRARIES
+        "@CMAKE_INSTALL_PREFIX@/@LIB_INSTALL_DIR@/@CMAKE_SHARED_LIBRARY_PREFIX@@PROJECT_NAME_LOWER@@CMAKE_STATIC_LIBRARY_SUFFIX@"
+        ${<dependency>_LIBRARIES}
+        )
+else(WIN32)
+    set(imageToNumber_LIBRARIES
+        "@CMAKE_INSTALL_PREFIX@/@LIB_INSTALL_DIR@/@CMAKE_SHARED_LIBRARY_PREFIX@@PROJECT_NAME_LOWER@@CMAKE_SHARED_LIBRARY_SUFFIX@"
+        ${<dependency>_LIBRARIES}
+        )
+endif(WIN32)
+
+set(imageToNumber_DEFINITIONS ${<dependency>_DEFINITIONS})
+
+set(imageToNumber_VERSION @PROJECT_VERSION@)
+set(imageToNumber_VERSION_MAJOR @PROJECT_VERSION_MAJOR@)
+set(imageToNumber_VERSION_MINOR @PROJECT_VERSION_MINOR@)
+set(imageToNumber_VERSION_REVISION @PROJECT_VERSION_REVISION@)
+set(imageToNumber_VERSION_CANDIDATE @PROJECT_VERSION_CANDIDATE@)
+

@@ -1,0 +1,99 @@
+2020-06-26 16:51:54,966 file.manager INFO 1.2.1
+2020-06-26 16:51:54,966 file.manager INFO Copyright (C) 2003-2010
+2020-06-26 16:51:54,966 file.manager INFO   Noriaki Ando
+2020-06-26 16:51:54,966 file.manager INFO   Intelligent Systems Research Institute, AIST
+2020-06-26 16:51:54,966 file.manager INFO Manager starting.
+2020-06-26 16:51:54,966 file.manager INFO Starting local logging.
+2020-06-26 16:51:54,973 file.manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2020-06-26 16:51:58,984 file.ManagerServant INFO Master manager not found
+2020-06-26 16:51:58,985 file.LocalServiceAdmin INFO All the local services are enabled.
+2020-06-26 16:51:58,987 file.manager INFO Component type conf file: test.conf loaded.
+2020-06-26 16:51:58,989 file.ec_base INFO setRate(1000000.000000) done
+2020-06-26 16:51:58,989 file.ec_base INFO setRate(1000.000000) done
+2020-06-26 16:51:58,989 file.rtobject INFO 1 execution context was created.
+2020-06-26 16:51:58,990 file.rtobject INFO Initial active configuration set is default-set.
+2020-06-26 16:52:12,975 file.ManagerServant INFO Master manager not found
+2020-06-26 16:52:27,062 file.ManagerServant INFO Master manager not found
+2020-06-26 16:52:41,143 file.ManagerServant INFO Master manager not found
+2020-06-26 16:52:55,233 file.ManagerServant INFO Master manager not found
+2020-06-26 16:52:56,992 file.SdoServiceAdmin WARNING No available SDO service in the factory: 
+2020-06-26 16:52:56,992 file.SdoServiceAdmin ERROR type  already exists.
+2020-06-26 16:53:09,313 file.ManagerServant INFO Master manager not found
+2020-06-26 16:53:23,434 file.ManagerServant INFO Master manager not found
+2020-06-26 16:53:37,527 file.ManagerServant INFO Master manager not found
+2020-06-26 16:53:51,619 file.ManagerServant INFO Master manager not found
+2020-06-26 16:54:05,742 file.ManagerServant INFO Master manager not found
+2020-06-26 16:54:19,852 file.ManagerServant INFO Master manager not found
+2020-06-26 16:54:33,986 file.ManagerServant INFO Master manager not found
+2020-06-26 16:54:48,085 file.ManagerServant INFO Master manager not found
+2020-06-26 16:55:02,265 file.ManagerServant INFO Master manager not found
+2020-06-26 16:55:13,242 file.SdoServiceAdmin INFO SDO service has been deleted: dfe15771-2e48-4dff-9dac-feb2bd0d494c
+2020-06-26 16:55:16,792 file.ManagerServant INFO Master manager not found
+2020-06-26 16:55:30,415 file.inport WARNING Traceback (most recent call last):
+  File "C:\Users\wei43\anaconda3\lib\site-packages\OpenRTM_aist\PortBase.py", line 2297, in checkPorts
+    if port._non_existent():
+  File "C:\Users\wei43\anaconda3\lib\site-packages\omniORB\CORBA.py", line 559, in _non_existent
+    return self._obj.nonExistent()
+omniORB.CORBA._omni_sys_exc: CORBA.TRANSIENT(omniORB.TRANSIENT_ConnectFailed, CORBA.COMPLETED_NO)
+
+2020-06-26 16:55:30,415 file.inport WARNING Dead connection: 0f2041ca-b782-11ea-a94f-1c697a0a6dcb
+2020-06-26 16:55:31,299 file.ManagerServant INFO Master manager not found
+2020-06-26 16:55:32,434 file.inport WARNING Traceback (most recent call last):
+  File "C:\Users\wei43\anaconda3\lib\site-packages\OpenRTM_aist\PortBase.py", line 870, in disconnect
+    return p.notify_disconnect(connector_id)
+  File "C:\Users\wei43\anaconda3\lib\site-packages\OpenRTM_aist\RTM_IDL\RTC_idl.py", line 1207, in notify_disconnect
+    return self._obj.invoke("notify_disconnect", _0_RTC.PortService._d_notify_disconnect, args)
+omniORB.CORBA._omni_sys_exc: CORBA.TRANSIENT(omniORB.TRANSIENT_ConnectFailed, CORBA.COMPLETED_NO)
+
+2020-06-26 16:55:45,575 file.ManagerServant INFO Master manager not found
+2020-06-26 16:55:59,656 file.ManagerServant INFO Master manager not found
+2020-06-26 16:56:13,753 file.ManagerServant INFO Master manager not found
+2020-06-26 16:56:27,989 file.ManagerServant INFO Master manager not found
+2020-06-26 16:56:28,444 file.SdoServiceAdmin WARNING No available SDO service in the factory: 
+2020-06-26 16:56:28,444 file.SdoServiceAdmin ERROR type  already exists.
+2020-06-26 16:56:42,207 file.ManagerServant INFO Master manager not found
+2020-06-26 16:56:46,979 file.ec_base INFO setRate(100.000000) done
+2020-06-26 16:56:56,529 file.ManagerServant INFO Master manager not found
+2020-06-26 16:57:10,776 file.ManagerServant INFO Master manager not found
+2020-06-26 16:57:24,871 file.ManagerServant INFO Master manager not found
+2020-06-26 16:57:38,952 file.ManagerServant INFO Master manager not found
+2020-06-26 16:57:53,048 file.ManagerServant INFO Master manager not found
+2020-06-26 16:58:07,509 file.ManagerServant INFO Master manager not found
+2020-06-26 16:58:21,848 file.ManagerServant INFO Master manager not found
+2020-06-26 16:58:36,273 file.ManagerServant INFO Master manager not found
+2020-06-26 16:58:50,787 file.ManagerServant INFO Master manager not found
+2020-06-26 16:59:05,403 file.ManagerServant INFO Master manager not found
+2020-06-26 16:59:19,843 file.ManagerServant INFO Master manager not found
+2020-06-26 16:59:34,298 file.ManagerServant INFO Master manager not found
+2020-06-26 16:59:48,909 file.ManagerServant INFO Master manager not found
+2020-06-26 17:00:03,421 file.ManagerServant INFO Master manager not found
+2020-06-26 17:00:17,833 file.ManagerServant INFO Master manager not found
+2020-06-26 17:00:32,318 file.ManagerServant INFO Master manager not found
+2020-06-26 17:00:46,606 file.ManagerServant INFO Master manager not found
+2020-06-26 17:01:00,779 file.ManagerServant INFO Master manager not found
+2020-06-26 17:01:14,907 file.ManagerServant INFO Master manager not found
+2020-06-26 17:01:28,992 file.ManagerServant INFO Master manager not found
+2020-06-26 17:01:43,154 file.ManagerServant INFO Master manager not found
+2020-06-26 17:01:57,250 file.ManagerServant INFO Master manager not found
+2020-06-26 17:02:11,331 file.ManagerServant INFO Master manager not found
+2020-06-26 17:02:25,429 file.ManagerServant INFO Master manager not found
+2020-06-26 17:02:39,665 file.ManagerServant INFO Master manager not found
+2020-06-26 17:02:53,747 file.ManagerServant INFO Master manager not found
+2020-06-26 17:03:07,828 file.ManagerServant INFO Master manager not found
+2020-06-26 17:03:16,934 file.inport WARNING Traceback (most recent call last):
+  File "C:\Users\wei43\anaconda3\lib\site-packages\OpenRTM_aist\PortBase.py", line 2297, in checkPorts
+    if port._non_existent():
+  File "C:\Users\wei43\anaconda3\lib\site-packages\omniORB\CORBA.py", line 559, in _non_existent
+    return self._obj.nonExistent()
+omniORB.CORBA._omni_sys_exc: CORBA.TRANSIENT(omniORB.TRANSIENT_ConnectFailed, CORBA.COMPLETED_NO)
+
+2020-06-26 17:03:16,934 file.inport WARNING Dead connection: a47756d2-b782-11ea-85ae-1c697a0a6dcb
+2020-06-26 17:03:18,948 file.inport WARNING Traceback (most recent call last):
+  File "C:\Users\wei43\anaconda3\lib\site-packages\OpenRTM_aist\PortBase.py", line 870, in disconnect
+    return p.notify_disconnect(connector_id)
+  File "C:\Users\wei43\anaconda3\lib\site-packages\OpenRTM_aist\RTM_IDL\RTC_idl.py", line 1207, in notify_disconnect
+    return self._obj.invoke("notify_disconnect", _0_RTC.PortService._d_notify_disconnect, args)
+omniORB.CORBA._omni_sys_exc: CORBA.TRANSIENT(omniORB.TRANSIENT_ConnectFailed, CORBA.COMPLETED_NO)
+
+2020-06-26 17:03:21,911 file.ManagerServant INFO Master manager not found
+2020-06-26 17:03:36,013 file.ManagerServant INFO Master manager not found

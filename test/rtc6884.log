@@ -1,0 +1,36 @@
+2020-06-26 18:12:04,245 file.manager INFO 1.2.1
+2020-06-26 18:12:04,245 file.manager INFO Copyright (C) 2003-2010
+2020-06-26 18:12:04,245 file.manager INFO   Noriaki Ando
+2020-06-26 18:12:04,245 file.manager INFO   Intelligent Systems Research Institute, AIST
+2020-06-26 18:12:04,245 file.manager INFO Manager starting.
+2020-06-26 18:12:04,245 file.manager INFO Starting local logging.
+2020-06-26 18:12:04,251 file.manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2020-06-26 18:12:08,272 file.ManagerServant INFO Master manager not found
+2020-06-26 18:12:08,272 file.LocalServiceAdmin INFO All the local services are enabled.
+2020-06-26 18:12:08,272 file.manager INFO Component type conf file: test.conf loaded.
+2020-06-26 18:12:08,287 file.ec_base INFO setRate(1000000.000000) done
+2020-06-26 18:12:08,287 file.ec_base INFO setRate(1000.000000) done
+2020-06-26 18:12:08,287 file.rtobject INFO 1 execution context was created.
+2020-06-26 18:12:08,287 file.rtobject INFO Initial active configuration set is default-set.
+2020-06-26 18:12:13,904 file.SdoServiceAdmin WARNING No available SDO service in the factory: 
+2020-06-26 18:12:13,904 file.SdoServiceAdmin ERROR type  already exists.
+2020-06-26 18:12:22,494 file.ManagerServant INFO Master manager not found
+2020-06-26 18:12:36,637 file.ManagerServant INFO Master manager not found
+2020-06-26 18:12:50,727 file.ManagerServant INFO Master manager not found
+2020-06-26 18:13:04,820 file.ManagerServant INFO Master manager not found
+2020-06-26 18:13:18,901 file.ManagerServant INFO Master manager not found
+2020-06-26 18:13:33,003 file.ManagerServant INFO Master manager not found
+2020-06-26 18:13:47,472 file.ManagerServant INFO Master manager not found
+2020-06-26 18:14:01,913 file.ManagerServant INFO Master manager not found
+2020-06-26 18:14:16,415 file.ManagerServant INFO Master manager not found
+2020-06-26 18:14:30,836 file.ManagerServant INFO Master manager not found
+2020-06-26 18:14:45,396 file.ManagerServant INFO Master manager not found
+2020-06-26 18:14:59,902 file.ManagerServant INFO Master manager not found
+2020-06-26 18:15:14,033 file.ManagerServant INFO Master manager not found
+2020-06-26 18:15:28,205 file.ManagerServant INFO Master manager not found
+2020-06-26 18:15:42,365 file.ManagerServant INFO Master manager not found
+2020-06-26 18:15:56,449 file.ManagerServant INFO Master manager not found
+2020-06-26 18:16:10,528 file.ManagerServant INFO Master manager not found
+2020-06-26 18:16:24,636 file.ManagerServant INFO Master manager not found
+2020-06-26 18:16:38,852 file.ManagerServant INFO Master manager not found
+2020-06-26 18:16:53,109 file.ManagerServant INFO Master manager not found

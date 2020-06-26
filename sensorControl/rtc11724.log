@@ -1,0 +1,18 @@
+2020-06-25 23:28:00,664 file.manager INFO 1.2.1
+2020-06-25 23:28:00,665 file.manager INFO Copyright (C) 2003-2010
+2020-06-25 23:28:00,665 file.manager INFO   Noriaki Ando
+2020-06-25 23:28:00,665 file.manager INFO   Intelligent Systems Research Institute, AIST
+2020-06-25 23:28:00,665 file.manager INFO Manager starting.
+2020-06-25 23:28:00,665 file.manager INFO Starting local logging.
+2020-06-25 23:28:00,671 file.manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2020-06-25 23:28:04,683 file.ManagerServant INFO Master manager not found
+2020-06-25 23:28:04,683 file.LocalServiceAdmin INFO All the local services are enabled.
+2020-06-25 23:28:04,685 file.manager INFO Component type conf file: sensorControl.conf loaded.
+2020-06-25 23:28:04,689 file.ec_base INFO setRate(1000000.000000) done
+2020-06-25 23:28:04,689 file.ec_base INFO setRate(100.000000) done
+2020-06-25 23:28:04,689 file.rtobject INFO 1 execution context was created.
+2020-06-25 23:28:04,691 file.rtobject INFO Initial active configuration set is default.
+2020-06-25 23:28:08,438 file.SdoServiceAdmin WARNING No available SDO service in the factory: 
+2020-06-25 23:28:08,438 file.SdoServiceAdmin ERROR type  already exists.
+2020-06-25 23:28:18,675 file.ManagerServant INFO Master manager not found
+2020-06-25 23:28:32,764 file.ManagerServant INFO Master manager not found
