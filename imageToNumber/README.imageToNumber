@@ -15,7 +15,7 @@
 Module Name: imageToNumber
 Description: ModuleDescription
 Version:     1.0.0
-Vendor:      VenderName
+Vendor:      KaneiGi
 Category:    Category
 Kind:        DataFlowComponent
 Comp. Type:  STATIC
