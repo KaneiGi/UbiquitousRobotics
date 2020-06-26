@@ -21,14 +21,14 @@ from PIL import Image
 import tensorflow as tf
 import cv2
 import os
-import threading
+
 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
 enumber = 0
 timedFrame = 100
 count = 1
-predint = []
+
 
 imagetonumner_spec = ["implementation_id", "imageToNumner",
                       "type_name", "imageToNumner",
